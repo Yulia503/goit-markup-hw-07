@@ -1,0 +1,27 @@
+@media screen and (min-width: 480px) {
+
+    /* *-----------Advantages------------- */
+
+    .container {
+        width: 428px;
+    }
+
+        /**-----------Customers----------------*/
+
+        
+}
+
+
+@media screen and (min-width: 480px) {
+
+    /**-----------Customers----------------*/
+.customers-list-item {
+     width: 190px;
+    }
+
+.mob-menu-link-contact.tel {
+    font-size: 36px;
+}
+
+}
+

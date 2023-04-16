@@ -1,0 +1,208 @@
+
+@media screen and (min-width: 1158px) { 
+    .container {
+            width: 1128px;
+        }
+
+  /**------------Header------------------*/
+
+.header-list {
+    display: flex;
+    gap: 40px; 
+    }
+
+.header-link:hover,
+.header-link:focus {
+    color: var(--accent-btn)
+}
+
+.header-link-contact:hover,
+.header-link-contact:focus {
+    color: var(--accent-btn);
+}
+
+.header-list.contact {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-link-contact:hover,
+.header-link-contact:focus {
+    color: var(--accent-btn);
+}
+
+  /**------------About ------------------*/
+
+    .about {
+        max-width: 1440px;
+        padding-top: 188px;
+        padding-bottom: 188px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/\ bckg-hero.jpg');
+        background-size: cover;
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .about {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/desktop-bg2x.jpg');
+        }
+    }
+
+    .btn-primary:hover,
+    .btn-primary:focus {
+        background: var(--accent-btn)
+    } 
+
+ /* *-----------Advantages------------- */
+
+
+    .icon-list {
+        gap: 24px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .icon-list-item {
+        display: flex;
+        padding: 24px 100px;
+        background: var(--footer-logo);
+        border-radius: 4px;
+        margin-bottom: 8px;
+     }
+
+     .section-list-item {
+        width: 264px;
+     }
+
+    .icon-list-icon {
+        width: 64px;
+        height: 64px;
+    }
+
+    .section-subtitle {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
+    .section-text {
+        font-weight: 400;
+        }
+
+    .section {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .section-list {
+        display: flex;
+        gap: 24px; 
+        flex-wrap: nowrap;
+     }
+
+/**-----------Customers----------------*/
+
+.customers-list {
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: nowrap;
+} 
+
+.customers-list-item {
+    width: 168px;
+}
+
+.customers-list-link:hover .customers-list-icon,
+.customers-list-link:focus .customers-list-icon {
+    fill: var(--accent-btn);
+}
+
+
+.customers-list-link:hover,
+.customers-list-link:focus {
+    cursor: pointer;
+    border: 1px solid var(--accent-btn);
+}
+
+/**-----------What are we doing-------------*/
+
+.section-work-title {
+    margin-bottom: 72px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--title-colour);
+}
+
+.section-about-work {
+    padding-top: 0;
+    gap: 24px;
+    display: flex;
+    
+}
+
+.section.about-work {
+    padding-top: 0;
+    margin: 0 auto;
+}
+
+.photo-work-img {
+    width: 360px;
+    height: 300px;
+}
+
+.section-list-work-item {
+    width: 100%;
+}
+
+/**-----------Our team -------------*/
+
+.social-list-link:focus,
+.social-list-link:hover {
+    background-color: var(--accent-btn);
+}
+
+   /**-----------Footer----------------*/
+
+.section-footer {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.logo-container {
+    margin-right: 120px;
+}
+
+.social-conainer {
+    margin-right: 80px;
+}
+
+
+.container.footer-container {
+    display: flex;
+}
+
+.social-list-link.footer:hover,
+.social-list-link.footer:focus {
+    background-color: var(--accent-social-footer);
+} 
+
+.social-list-link.footer:hover,
+.social-list-link.footer:focus {
+    background-color: var(--accent-social-footer);
+}
+
+.modal-form-footer {
+    display: flex;
+}
+
+ }
+
+
