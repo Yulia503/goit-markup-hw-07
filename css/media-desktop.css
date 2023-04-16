@@ -222,6 +222,10 @@
     background: var(--accent-btn);
 }
 
+.footer-container {
+    margin: 0 auto;
+}
+
  }
 
 
