@@ -160,7 +160,7 @@ img {
 
  */
 
-/**------------About ------------------*/
+/* *------------About ------------------ */
 
 /* 
 .about-title {
@@ -504,7 +504,7 @@ img {
         0px 2px 1px rgba(213, 214, 227, 0.08);
 } */
 
-.footer-form-input::placeholder {
+/* .footer-form-input::placeholder {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;

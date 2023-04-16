@@ -176,18 +176,19 @@
     padding-bottom: 100px;
 }
 
+.footer-container {
+    margin: 0;
+    display: flex;
+}
+
 .logo-container {
     margin-right: 120px;
 }
 
-.footer-email-form {
-    margin-left: 80px;
+.social-container {
+    margin-right: 80px;
 }
 
-
-.container.footer-container {
-    display: flex;
-}
 
 .social-list-link.footer:hover,
 .social-list-link.footer:focus {
@@ -203,8 +204,17 @@
     display: flex;
 }
 
+.footer-email-form {
+    display: flex;
+}
+
+
 .footer-form-input {
-    width: 264px;
+    width: 200px;
+}
+
+.footer-text {
+    min-width: 264px;
 }
 
 .modal-form-submit:hover,

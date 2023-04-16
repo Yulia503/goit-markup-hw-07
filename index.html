@@ -601,25 +601,30 @@
 
             <div class="footer-email-form">
                 <p class="footer-email-subscribe">Subscribe</p>
-                <form class="modal-form-footer">
-                    <label class="modal-form-field">
-                        <span class="footer-form-btn-wrapper">
-                            <input type="email" name="user-email"
-                                class="footer-form-input" required
-                                placeholder="E-mail" pattern="^\S+@\S+\.\S+$"
-                                title="example@mail.com">
-                            </input>
-                            <button type="submit"
-                                class="modal-form-submit footer">Subscribe
-                                <svg class="footer-btn-send-icon">
-                                    <use
-                                        href="./images/sprite.svg#icon-button-send">
-                                    </use>
-                                </svg>
-                            </button>
-                        </span>
-                    </label>
-                </form>
+                <div class="email-container">
+                    <form class="modal-form-footer">
+                        <label class="modal-form-field">
+                            <span class="footer-form-btn-wrapper">
+                                <div class="imput-btn-container">
+                                    <input type="email" name="user-email"
+                                        class="footer-form-input" required
+                                        placeholder="E-mail"
+                                        pattern="^\S+@\S+\.\S+$"
+                                        title="example@mail.com">
+                                    </input>
+                                    <button type="submit"
+                                        class="modal-form-submit footer">Subscribe
+                                        <svg class="footer-btn-send-icon">
+                                            <use
+                                                href="./images/sprite.svg#icon-button-send">
+                                            </use>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </span>
+                        </label>
+                    </form>
+                </div>
             </div>
         </div>
     </footer>

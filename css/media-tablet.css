@@ -190,26 +190,38 @@
     margin-right: 24px;
 }
 
+.footer-text {
+    width: 264px;
+}
+
 .social-container {
     align-items: flex-start;
 }
 
-.footer-form-btn-wrapper {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-}
-
 .footer-email-form {
-    display: block;
+    align-items: flex-start;
 }
 
 .footer-form-input {
     width: 264px;
     margin-right: 24px;
+    align-items: center;
+}
+
+.footer-form-btn-wrapper {
+    align-items: center;
+}
+
+.imput-btn-container {
+    align-items: center;
+}
+
+.footer-form-input {
     margin-bottom: 0;
 }
 
+
+}
 
 @media screen and (max-width: 1157px) {
 
