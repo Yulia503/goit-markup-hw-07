@@ -180,8 +180,8 @@
     margin-right: 120px;
 }
 
-.social-conainer {
-    margin-right: 80px;
+.footer-email-form {
+    margin-left: 80px;
 }
 
 
@@ -201,6 +201,15 @@
 
 .modal-form-footer {
     display: flex;
+}
+
+.footer-form-input {
+    width: 264px;
+}
+
+.modal-form-submit:hover,
+.modal-form-submit:focus {
+    background: var(--accent-btn);
 }
 
  }
