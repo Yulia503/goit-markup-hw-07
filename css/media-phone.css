@@ -190,8 +190,29 @@ margin-bottom: 40px;
 
 /**------------About ------------------*/
 
-
 .about-title {
+    width: 350px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--white-text);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left:  auto;
+    margin-right:  auto;
+    margin-bottom: 72px;
+
+}
+
+/* .about-title {
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 48px;
     font-weight: 700;
     font-size: 36px;
@@ -199,7 +220,8 @@ margin-bottom: 40px;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--white-text);
-}
+    text-transform: capitalize;
+} */
 
 .about {
     padding-top: 112px;
