@@ -888,10 +888,10 @@ color: var(--primary-text-colour);
     color: var(--accent-colour);
 }
 
-/* .user-policy-link:hover,
+.user-policy-link:hover,
 .user-policy-link:focus {
     color: var(--accent-btn);
-} */
+} 
 
 .modal-form-submit {
     font-size: 16px;
