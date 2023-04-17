@@ -47,6 +47,7 @@ body {
     font-family: 'Roboto', sans-serif;
     color: var(--primary-text-colour);
     background: var(--primary-background);
+    overflow-x: hidden;
 }
 
 img {
@@ -65,8 +66,7 @@ img {
 
 /**------------Header ------------------*/
 .header {
-    padding-top: 24px;
-    padding-bottom: 24px;
+   
     border-bottom: 1px solid #E7E9FC;
 }
 
@@ -74,6 +74,8 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 24px;
+        padding-bottom: 24px;
 }
 
 .header-logo {
@@ -96,6 +98,7 @@ img {
 .menu-open-icon {
     width: 32px;
     height: 22px;
+    stroke: #2E2F42;
 }
 
 .first-logo {
@@ -253,7 +256,7 @@ margin-bottom: 40px;
 }
 
 .section-subtitle {
-font-weight: 500;
+font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 text-align: center;
@@ -342,8 +345,11 @@ color: var(--primary-text-colour);
 }
 
 .team-wrapper .section-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
     margin-bottom: 8px;
-    color: var(--primary-text-colour);
 }
 
 .social-list {
@@ -420,10 +426,124 @@ color: var(--primary-text-colour);
     background: var(--title-colour);
 }
 
+.logo-container {
+    margin-bottom: 72px;
+}
+
+.logo-container .header-logo {
+    justify-content: center;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    margin-bottom: 16px;
+}
+
 .footer-first-logo {
     color: var(--footer-logo);
 }
 
+.footer-text {
+    font-size: 16px;
+    line-height: 1.55;
+    letter-spacing: 0.02em;
+    color: var(--footer-logo);
+    width: 268px;
+    margin-left:  auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.footer-subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--white-text);
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.social-container {
+    margin-bottom: 72px;
+}
+
+.social-list-icon.footer {
+    width: 24px;
+    height: 24px;
+}
+
+.social-list-link.footer {
+    padding: 8px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-email-subscribe {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--white-text);
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.footer-form-input {
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    background: var(--title-colour);
+    color: var(--white-text);
+    border: 1px solid var(--icon-costumers-fill);
+    border-radius: 4px;
+    margin-bottom: 16px;
+    transition: border-colour cubic-bezier(0.4, 0, 0.2, 1);
+
+    font-size: 12px;
+    line-height: 2;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+}
+
+.modal-form-submit.footer {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: var(--white-text);
+}
+
+.btn-wrap-footer {
+    justify-content: center;
+        margin-left:  auto;
+        margin-right:  auto;
+}
+
+.modal-form-submit.footer {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 24px;
+    gap: 16px;
+    width: 165px;
+    height: 40px;
+    background: var(--accent-colour);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border: transparent;
+}
+
+.footer-btn-send-icon {
+    width: 24px;
+    height: 24px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    fill: var(--white-text);
+}
 
 /**------------Portfolio------------------*/
 
